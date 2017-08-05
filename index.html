@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promise/Deferred/AJAX</title>
+    <style>
+        .loadWrapper {
+            overflow: hidden;
+            height: 10px;
+            margin: 10px;
+            background: #000;
+            border-radius: 5px;
+        }
+        .loadWrapper > .loadLine {
+            background: #ccc;
+            border-radius:  3px;
+            margin: 1px;
+            height: 8px;
+            width: 100%;
+            transition: width 3s;
+        }
+
+        article {
+            overflow: hidden;
+        }
+        article h2 {
+            border-bottom: 1px solid #ccc;
+            font-size: 1.4em;
+            margin: 15px 10px;
+        }
+        article p {
+            font-size: 1.2rem;
+            padding: 8px 16px;
+            text-align: justify;
+        }
+        article img {
+            margin: 5px 10px 5px 5px;
+            padding: 3px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="loadWrapper">
+    <div class="loadLine"></div>
+</div>
+<article>
+    <p><img src="#" alt="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores culpa cumque,
+        distinctio dolores esse et expedita facilis, odit pariatur quae sed tempora ullam. Deleniti expedita fuga quod
+        rerum vero voluptate.</p>
+</article>
+<article>
+    <p><img src="#" alt="#">Blanditiis itaque nulla recusandae saepe similique. Ad aliquid blanditiis commodi distinctio
+        dolorum earum fuga ipsa itaque laborum libero minus modi nemo neque nisi quas quia recusandae sit soluta
+        tempora, voluptatem?</p>
+</article>
+<article>
+    <p><img src="#" alt="#">Consectetur corporis dicta distinctio dolor dolorum et fugiat, incidunt laboriosam magni
+        molestiae nesciunt perferendis quas quis quos repellendus sint tempora, tempore veniam, voluptates voluptatum?
+        Excepturi magnam necessitatibus sunt unde vel!</p>
+</article>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
