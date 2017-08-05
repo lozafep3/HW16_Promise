@@ -1,5 +1,3 @@
-var deferred = $.Deferred();
-
 $(window)
     .on('load', runPreloader)
     .on('transitionend', startHiding);
@@ -9,7 +7,7 @@ function runPreloader () {
 }
 
 function startHiding () {
-    deferred
+    $.Deferred()
         .resolve()
         .then(function() {
             return $('article img').fadeOut(1000);
